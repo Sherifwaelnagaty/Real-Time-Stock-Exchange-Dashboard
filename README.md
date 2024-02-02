@@ -4,20 +4,6 @@
 
 This is a Real-Time Stock Exchange Dashboard built with Angular. The dashboard provides live updates on stock prices, allows users to create orders for selected stocks, and tracks order history.
 
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Real-Time Stock Dashboard](#real-time-stock-dashboard)
-  - [Order Creation Form](#order-creation-form)
-  - [Orders History](#orders-history)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 1. **Stocks Dashboard:**
