@@ -1,27 +1,35 @@
-# Dashboard
+# Real-Time Stock Exchange Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Overview
 
-## Development server
+This is a Real-Time Stock Exchange Dashboard built with Angular. The dashboard provides live updates on stock prices, allows users to create orders for selected stocks, and tracks order history.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Real-Time Stock Dashboard](#real-time-stock-dashboard)
+  - [Order Creation Form](#order-creation-form)
+  - [Orders History](#orders-history)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+1. **Stocks Dashboard:**
+   - Displays a list of stocks in real-time.
+   - Shows relevant information such as stock symbols, current prices, and real-time updates.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Real-Time Stock Updates:**
+   - Implements real-time updates for stock prices using Angular WebSocket and RxJS.
 
-## Running unit tests
+3. **Order Creation Form:**
+   - Allows users to create orders for a selected stock.
+   - Includes fields for stock symbol, order type (buy/sell), and quantity.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Orders History:**
+   - Displays the user's order history, including order type, stock symbol, quantity, and timestamp.
