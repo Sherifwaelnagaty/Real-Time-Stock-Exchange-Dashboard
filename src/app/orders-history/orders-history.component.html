@@ -1,1 +1,15 @@
-<p>orders-history works!</p>
+<div class="transactions">
+  <div class="title">Last few Orders</div>
+<div class="transaction-wrapper">
+  <div class="transaction">
+  <div class="symbol">Symbol</div>
+  <div class="quantity">Quantity</div>
+  <div class="price">Price</div>
+  </div>
+  <div class="transaction" *ngFor="let transaction of transactions">
+  <div class="symbol">{{transaction.symbol}}</div>
+  <div class="quantity">{{transaction.quantity}}</div>
+  <div class="price">{{transaction.ordertype}}</div>
+  </div>
+</div>
+</div>

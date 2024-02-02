@@ -1,1 +1,36 @@
-<p>order-creation-form works!</p>
+<div class="container">
+  <h2>Create Order</h2><br>
+  <form (ngSubmit)="submitOrder()">
+    <div class="row">
+    <div class="col-25">
+      <label for="stockName">Stock Name:</label>
+    </div>
+    <div class="col-75">
+      <select id="stockName" [(ngModel)]="order.stockName" required>
+        <option *ngFor="let option of stockOptions" [value]="option">{{ option }}</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Quantity:</label>
+    </div>
+    <div class="col-75">
+      <input id="quantity" type="text" [(ngModel)]="order.quantity" required />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="price">Price:</label>
+    </div>
+    <div class="col-75">
+      <input id="price" type="text" [(ngModel)]="order.price" required />
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+

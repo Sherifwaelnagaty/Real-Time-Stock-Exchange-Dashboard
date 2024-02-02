@@ -1,0 +1,38 @@
+.transactions {
+  .transaction-wrapper {
+    overflow: auto;
+    height: 185px;
+  }
+  .title {
+    padding: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica,
+      sans-serif;
+  }
+  .transaction {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #f0f0f0;
+    justify-content: space-between;
+
+    .symbol {
+      padding: 20px;
+      font-size: 14px;
+      width: 120px;
+    }
+    .price {
+      padding: 20px;
+      font-size: 14px;
+      width: 120px;
+    }
+    .quantity {
+      padding: 20px;
+      font-size: 14px;
+      width: 120px;
+    }
+  }
+}

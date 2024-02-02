@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './orders-history.component.css'
 })
 export class OrdersHistoryComponent {
-
+transactions=[
+  {
+    symbol:'Apple',
+    quantity:5,
+    ordertype:11000,
+  },{
+    symbol:'Apple',
+    quantity:5,
+    ordertype:11000,
+  }
+];
 }
