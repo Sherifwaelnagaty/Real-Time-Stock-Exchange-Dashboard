@@ -10,6 +10,7 @@ import { TopWidgetsComponent } from './top-widgets/top-widgets.component';
 import { OrderCreationFormComponent } from './order-creation-form/order-creation-form.component';
 import { StockDashboardComponent } from './stock-dashboard/stock-dashboard.component';
 import { OrdersHistoryComponent } from './orders-history/orders-history.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { OrdersHistoryComponent } from './orders-history/orders-history.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
