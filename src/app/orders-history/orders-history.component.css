@@ -1,16 +1,13 @@
 .transactions {
-  .transaction-wrapper {
-    overflow: auto;
-    height: 185px;
-  }
-  .title {
+  h2{
     padding: 20px;
     padding-bottom: 5px;
     text-align: center;
-    color: #333333;
-    font-size: 18px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica,
-      sans-serif;
+    font-size: 24px;
+  }
+  .transaction-wrapper {
+    overflow: auto;
+    height: 185px;
   }
   .transaction {
     display: flex;

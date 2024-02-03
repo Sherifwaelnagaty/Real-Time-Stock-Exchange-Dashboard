@@ -23,7 +23,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     OrderCreationFormComponent,
     StockDashboardComponent,
     OrdersHistoryComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

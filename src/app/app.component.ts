@@ -19,7 +19,7 @@ export class AppComponent {
 
   isDashboardRoute(): boolean {
     // Implement logic to check if the current route is the dashboard route
-    return this.router.url.includes('/dashboard');
+    return this.router.url.includes('/Dashboard');
   }
 
   isOrdersRoute(): boolean {
@@ -31,11 +31,11 @@ export class AppComponent {
     // Update the main class whenever the route changes
     // You can add more conditions based on your routes
     if (this.isDashboardRoute()) {
-      document.body.classList.remove('main-orders');
-      document.body.classList.add('main-dashboard');
+      document.body.classList.remove('app-main');
+      document.body.classList.add('app-dashboard');
     } else if (this.isOrdersRoute()) {
-      document.body.classList.remove('main-dashboard');
-      document.body.classList.add('main-orders');
+      document.body.classList.remove('app-dashboard');
+      document.body.classList.add('app-main');
     }
   }
 }

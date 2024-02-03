@@ -1,8 +1,11 @@
-<div *ngIf="stockData">
-  <h2>Real-time Stock Information</h2>
-  <ul>
-    <li><strong>Symbol:</strong> {{ stockData['01. symbol'] }}</li>
-    <li><strong>Price:</strong> ${{ stockData['05. price'] }}</li>
-    <li><strong>Last Updated:</strong> {{ stockData['07. latest trading day'] }}</li>
-  </ul>
+<div class="middle-section">
+  <div class="widget">
+    <h2>Real-time Stock Information</h2>
+    <ul>
+      <li><strong>Symbol:</strong> {{ stockData['01. symbol'] }}</li>
+      <li><strong>Price:</strong> ${{ stockData['05. price'] }}</li>
+      <li><strong>Last Updated:</strong> {{ stockData['07. latest trading day'] }}</li>
+    </ul>
+  </div>
 </div>
+
