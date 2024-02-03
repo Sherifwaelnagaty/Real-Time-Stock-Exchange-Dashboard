@@ -12,6 +12,7 @@ import { OrdersHistoryComponent } from './orders-history/orders-history.componen
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppRoutingModule,
     FontAwesomeModule,
     FormsModule,
+    ChartModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
