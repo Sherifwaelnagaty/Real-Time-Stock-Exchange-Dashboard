@@ -11,6 +11,7 @@ import { StockDashboardComponent } from './stock-dashboard/stock-dashboard.compo
 import { OrdersHistoryComponent } from './orders-history/orders-history.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     TopWidgetsComponent,
     OrderCreationFormComponent,
     StockDashboardComponent,
-    OrdersHistoryComponent
+    OrdersHistoryComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
